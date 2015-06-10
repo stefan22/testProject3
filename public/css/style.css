@@ -33,3 +33,17 @@ li {
   list-style: none;
   overflow: hidden;
 }
+
+p {
+  margin-top: 30px;
+  background-color: #d4d4d4;
+  padding:10px;
+  border-radius: 5px;
+  color:#383838;
+}
+
+.side {
+  margin:10px;
+  width: 75%;
+  margin-bottom: 20px;
+}
