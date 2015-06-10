@@ -19,7 +19,7 @@ describe('GitUserSearchController', function() {
     beforeEach(inject(function($httpBackend) {
       httpBackend = $httpBackend
       httpBackend
-        .when("GET", "https://api.github.com/search/users?q=hello")
+        .when("GET", "https://api.github.com/search/users?q=notHello")
         .respond(
           { items: items }
         );
@@ -39,7 +39,7 @@ describe('GitUserSearchController', function() {
       ];
 
       it('displays search results', function() {
-        ctrl.searchTerm = 'hello';
+        ctrl.searchTerm = 'notHello';
         ctrl.doSearch();
         httpBackend.flush();
         expect(ctrl.searchResult.items).toEqual(items);
