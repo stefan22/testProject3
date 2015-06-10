@@ -1,0 +1,15 @@
+body {
+  width: 500px;
+  margin:0 auto;
+  margin-top:3em;
+}
+
+
+form {
+  margin-bottom:3em;
+}
+
+img {
+  margin-right:1em;
+  border-radius: 5px;
+}
