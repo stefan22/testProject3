@@ -23,3 +23,20 @@ install packages:
   most people consider it bad practice.
   Because we don't want to commit those dependencies we need to add bower_components
   to our .gitignore file
+
+  Setting up test environment
+
+  we need to get our environment set up with some boilerplate:
+    bower install angular-mocks --save-dev
+    bower install angular-route --save-dev
+
+  install test runner karma:
+    install some packages, which we'll do via npm
+      npm init
+      add node_modules to your .gitignore
+
+  Now let's install our node packages:
+
+    npm install karma --save-dev
+    npm install karma-jasmine karma-chrome-launcher karma-phantomjs-launcher --save-dev
+    npm install -g karma-cli
