@@ -1,4 +1,4 @@
-testProject3  -- ANGULAR
+testProject3  -- ANGULAR (practice round)
 
 need node and bower install
 
