@@ -40,3 +40,8 @@ install packages:
     npm install karma --save-dev
     npm install karma-jasmine karma-chrome-launcher karma-phantomjs-launcher --save-dev
     npm install -g karma-cli
+    
+    
+    
+    
+  ![sample search](public/images/image.png)  
